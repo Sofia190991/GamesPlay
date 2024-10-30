@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TheGameAwards</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing:border-box;
+        font-family: "Poppins", sans-serif;
+    }
+
+    body{
+        background-color:rgb(95, 0, 0);
+    }
+
+    .interface{
+        max-width: 1280px;
+        margin: 0 auto;
+    }
+
+    /* CSS HEADER */
+
+    header{
+        padding: 40px 0;
+        width: 100%;
+        position: fixed;
+        top: 0;
+        left: 0;
+    }
+
+    header .interface{
+        display: flex;
+        justify-content: space-between;
+
+    }
+
+    header .logo img{
+        max-width: 50px;
+    }
+
+    header .menu nav ul{
+        list-style-type: none;
+    }
+    
+    header .menu nav ul li{
+        display: inline-block;
+        margin: 0 40px;
+    }
+
+    header .menu nav ul li a{
+        color:white;
+        text-decoration: none;
+        transition: .2s;
+        display: inline-block;
+    }
+
+    .menu nav a:hover{
+        transform: scale(1.05);
+    }
+
+    header .btn-contato button{
+        height: 30px;
+        width: 100px;
+        font-size: 19px;
+        background-color: transparent;
+        border-radius: 20px;
+        color:aliceblue;
+        cursor: pointer;
+        transition: .5s;
+
+    }
+
+    header .btn-contato button:hover{
+        background-color:rgb(255, 255, 255);
+        color:black;
+    }
+
+    /* home */
+
+    section.home {
+        height: 100vh;
+        background-image: url(gamea.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        color:aliceblue;
+    }
+
+    .home .interface{
+        display: flex;
+        align-items: center;
+        height: 100%;
+
+    }
+
+    .home .txt-home h1{
+        font-size: 4em;
+        line-height:60px;
+        font-weight: 200;
+    }
+
+    .home .txt-home h1 span{
+        font-weight: 800;
+        display: block;
+    }
+
+    .home .txt-home p{
+        font-size: 20px;
+        font-weight: 300;
+        margin: 20px 0;
+    }
+
+    .home .txt-home p span{
+        display: block;
+    } 
+
+    /* game awards */
+
+    section .gameawards{
+        padding: 80px 0;
+    }
+
+    .gameawards .item-conteiner{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 10%;
+        margin-bottom: 70px;
+        margin-top: 30px;
+    }
+
+    .gameawards .item-conteiner .img-itens img{
+        max-width: 420px;
+        border-radius: 20px;
+    }
+
+    .gameawards .item-conteiner .txt-item h3{
+        font-size: 3em;
+        line-height: 50px;
+        margin-bottom: 30px;
+        color:rgba(255, 255, 255, 0.864);
+    }
+
+    .item-conteiner .txt-item h3 span{
+        font-weight: 300;
+        color: rgba(255, 255, 255, 0.864);
+    }
+
+    .item-conteiner .txt-item p{
+        font-weight: 400;
+        color: rgba(255, 255, 255, 0.864);
+    }
+
+
+</style>
+</head>
+<body>
+
+    <header>
+        <div class="interface">
+            <section class="logo">
+                <img src="logo.svg">
+            </section>
+
+            <section class="menu">
+                <nav>
+                    <ul><li><a href="Game.html">Games Evolution</a></li>
+                        <li><a href="companies.html">Companies</a></li>
+                        <li><a href="GameAwards.html">The Game Awards</a></li>
+                        <li><a href="Collection.html">Collection</a></li>
+                    </ul>
+                </nav>
+            </section>
+
+            <section class="btn-contato">
+                <a href="Contato.html">
+                    <button>contato</button>
+                </a>
+            </section>
+
+        </div>
+    </header>
+    
+    <section class="home">
+        <div class="interface">
+            <div class="txt-home">
+                <h1> THE GAME
+                    <span> AWARDS </span> </h1>
+
+                    <p> O evento do 
+                        <span> The Game Awards </span> </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="gameawards" class="gameawards">
+        <div class="interface">
+            <article class="item-conteiner">
+                <div class="txt-item">
+
+                    <h3>O que é?</h3></br>
+                    <p> <b>The Game Awards</b> é um evento de cerimônia de premiação que ocorre anualmente, reconhecendo os melhores jogos 
+                        eletrônicos e anunciando lançamentos de novos títulos. Foi criada e é apresentada pelo jornalista de jogos eletrônicos <b>Geoff Keighley</b> em 2014.
+                        A votação de todas as categorias é aberta ao público pela Internet, 1 ou 2 meses antes da cerimônia ser realizada.
+                    </p>
+                </div>
+            </article>
+
+            <article class="item-conteiner">
+                <div class="txt-item">
+                    <h3> As Categorias</h3></br>
+                    <p> Em The Game Awards, vários jogos que foram lançados no em que a cerimônia está ocorrendo são 
+                        nomeados em diferentes categorias, sendo a mais importante e a mais disputada a <b>The Game Of The Year</b> (O Jogo Do Ano).
+                    </br>Dentre as diferentes categorias, estão a melhor Performance, Multiplayer, jogo em andamento, 
+                        direção de arte, música, design de áudio, acessibilidade, melhor narrativa, jogos para impacto, Indie, Mobile, suporte 
+                        da comunidade, Debut Indie, VR/AR, criador de conteúdo, ação, ação/aventura, RPG, luta, mais antecipado, melhor adaptação, 
+                        jogos de família, Sim/Estratégia, esportes/corrida, Esports Jogo/Atleta/Time/Coach/Evento, direção de jogo, e O Jogo Do Ano.
+                    </br> Um exemplo dos nomeados de 2022 a seguir.
+                     </p>
+                </div>
+
+            <div class="img-itens">
+                <video width="440" height="260" poster="" controls>
+                    <source src="videoplayback.mp4" type="video/mp4">
+                </video>
+            </div>
+            </article>
+
+            <article class="item-conteiner">
+                <div class="img-itens">
+                    <video width="440" height="260" poster="" controls>
+                        <source src="2.mp4" type="video/mp4">
+                    </video>
+                </div>
+
+                <div class="txt-item">
+                    <h3> Orquestras do </br>
+                  <span>  Game of the Year</span> </h3>
+                  <p> Quando se começa a revelação da premiação do Game Of The Year, geralmente há uma orquestra contendo 
+                    músicas de todos os jogos nomeados para a categoria. Exemplo do TGA de 2022 a seguir, contendo Horizon, Xenoblade 3, 
+                    A Plague Tale, Stray, Elden Ring e God Of War Ragnarok.
+                  </p>
+                </div>
+            </article>
+        </div>
+    </section>
+</body>
+</html>

@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>GamePlay</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+
+   <style>
+    *{
+
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Poppins", sans-serif;
+    }
+
+    body{
+        background-color:rgb(180, 178, 177)
+    }
+
+    .interface{
+        max-width: 1280px;
+        margin: 0 auto;
+    }
+
+    /* CSS HEADER */
+
+    header{
+        padding: 40px 0;
+        width: 100%;
+        position: fixed;
+        top: 0;
+        left: 0;
+    }
+
+    header .interface{
+        display: flex;
+        justify-content: space-between;
+
+    }
+
+    header .logo img{
+        max-width: 50px;
+    }
+
+    header .menu nav ul{
+        list-style-type: none;
+    }
+    
+    header .menu nav ul li{
+        display: inline-block;
+        margin: 0 40px;
+    }
+
+    header .menu nav ul li a{
+        color:white;
+        text-decoration: none;
+        transition: .2s;
+        display: inline-block;
+    }
+
+    .menu nav a:hover{
+        transform: scale(1.05);
+    }
+
+    header .btn-contato button{
+        height: 30px;
+        width: 100px;
+        font-size: 19px;
+        background-color: transparent;
+        border-radius: 20px;
+        color:aliceblue;
+        cursor: pointer;
+        transition: .5s;
+
+    }
+
+    header .btn-contato button:hover{
+        background-color:rgb(255, 255, 255);
+        color:black;
+    }
+
+    /* home */
+
+    section.home {
+        height: 100vh;
+        background-image: url(game3.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        color:aliceblue;
+    }
+
+    .home .interface{
+        display: flex;
+        align-items: center;
+        height: 100%;
+
+    }
+
+    .home .txt-home h1{
+        font-size: 4em;
+        line-height:60px;
+        font-weight: 200;
+        
+    }
+
+    .home .txt-home h1 span{
+        font-weight: 800;
+        display: block;
+    }
+
+    .home .txt-home p{
+        font-size: 20px;
+        font-weight: 300;
+        margin: 20px 0;
+    }
+
+    .home .txt-home p span{
+        display: block;
+    }
+
+    /* GAMES EVOLUTION*/
+
+
+    section.evolution{
+        padding: 80px 0;
+    }
+    
+    .evolution .item-conteiner{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 10%;
+        margin-bottom: 70px;
+    }
+
+    .evolution .item-conteiner .img-itens img{
+        max-width: 420px;
+        border-radius: 20px;
+    }
+
+    .evolution .item-conteiner .txt-item h3{
+        font-size: 3em;
+        line-height: 50px;
+        margin-bottom: 30px;
+    }
+
+    .item-conteiner .txt-item h3 span{
+        font-weight: 300;
+    }
+
+
+    /*  STYLE */
+   </style>
+</head>
+<body>
+    <header>
+        <div class="interface">
+            <section class="logo">
+                <img src="logo.svg">
+            </section>
+
+            <section class="menu">
+                <nav>
+                    <ul>
+                        <li><a href="Game.html">Games Evolution</a></li>
+                        <li><a href="companies.html">Companies</a></li>
+                        <li><a href="GameAwards.htmlcccc">The Game Awards</a></li>
+                        <li><a href="Collection.html">Collection</a></li>
+                    </ul>
+                </nav>
+            </section>
+
+            <section class="btn-contato">
+                <a href="Contato.html">
+                    <button>contato</button>
+                </a>
+            </section>
+
+        </div>
+    </header>
+
+    <section class="home">
+        <div class="interface">
+            <div class="txt-home">
+                <h1> THE EVOLUTION OF 
+                    <span> GAMES </span> </h1>
+
+                    <p> A evolução dos
+                        <span> jogos eletrônicos </span> </p>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="evolution" class="evolution">
+        <div class="interface">
+            <article class="item-conteiner">
+                <div class="txt-item">
+
+                    <h3><span> O primeiro jogo eletrônico </span><br>
+                    Anos 60</h3>
+                    <p> os jogos eletrônicos têm sua origem na década de 1950,
+                        quando os primeiros computadores foram desenvolvidos.
+                        O jogo eletrônico mais antigo conhecido é o "Tênis para dois", 
+                        criado em 1958 por William Higinbotham. Com interface simples, na linha do tempo da evolução dos jogos eletrônicos, 
+                        esse foi o primeiro comercializado. Em 1962, Steve Russell, do Massachusetts Institute of Technology, criou o Spacewar.
+
+                    </p>
+                </div>
+
+                <div class="img-itens">
+                    <img src="tennis.jpg" alt="">
+                </div>
+            </article>
+           
+
+            <article class="item-conteiner">
+                <div class="img-itens">
+                    <img src="arcade.jpg" alt="">
+                </div>
+                <div class="txt-item">
+                    <h3><span>Jogos Arcade</span><br>
+                    Anos 70</h3>
+                    <p>Em 1972, foi lançado a Atari, a primeira empresa de jogos eletrônicos do mundo.
+                        Os jogos arcade se espalharam pelos Estados Unidos, tornando-se populares jogos como
+                        Space Invaders, Pong, Donkey Kong e Pac-Man. O Atari 2600 é lançado em 1977, alcançando um alto número de vendas por ano: de 250 a 550 mil unidades.
+                        Ainda nos anos 70, foram criados os computadores pessoais.
+
+                    </p>
+                </div>
+            </article>
+
+
+            <article class="item-conteiner">
+                <div class="txt-item">
+                    
+                    <h3><span>Evolução dos videogames</span><br>
+                    Anos 80</h3>
+                    <p> Os anos 80 tiveram diversos marcos para a evolução dos jogos, como o lançamento de revistas, sendo Computer and Video Games (1981) 
+                        e Computer Gaming World (1981) as mais memoráveis; o lançamento da Nintendo no Japão; o lançamento de consoles, 
+                        incluindo Super Nintendo, o Sega Mega Drive e o Gameboy.
+                    </p>
+                </div>
+                <div class="img-itens">
+                    <img src="nintendo.jpg" alt="">
+                </div>
+            </article>
+
+
+            <article class="item-conteiner">
+                <div class="img-itens">
+                    <img src="windows.jpg" alt="">
+                </div>
+                <div class="txt-item">
+                    <h3><span>A chegada da Internet</span><br>
+                    Anos 90</h3>
+                    <p> Na década de 90 são lançados vários outros consoles, tendo em destaque:
+                        Nintendo 64 (1996), Sony Playstation (1994) e o Sega Saturn (1994). Também começam a ser desenvolvidos jogos em 3D.
+                        Com a Internet se tornando mais popular e a chegada do Windows '95,  já era possível pensar em migrar os jogos eletrônicos dos consoles para as telas dos computadores.
+                    </p>
+                </div>
+            </article>
+
+
+            <article class="item-conteiner">
+                <div class="txt-item">
+                    <h3><span>Avanço da Tecnologia</span><br>
+                    Anos 2000</h3>
+                    <p>Nos anos 2000 houveram diversas mudanças, tanto em toda a área de tecnologia quanto no mundo dos jogos.
+                        Com a chegada de dispositivos móveis, realidade virtual e o avanço da tecnologia, foi possível que os
+                        jogos se tornassem o que conhecemos hoje em dia. Os cartuchos saem de cena e o DVD passa ser o novo padrão dos consoles de mesa, voltando o foco para os jogos online e as convergências tecnológicas;
+                        se tornam máquinas de performance de 128-bits e total conectividade com serviços de internet. Em 2012-2020, capacidade de armazenamento (blu-ray), conectividade total, exclusividade, experiências com novas formas de interação e potência em processamento. 
+                        E atualmente, essa geração oferece tudo o que um usuário espera de um console de mesa, imagens mais realistas, menor tempo de carregamento dos jogos.
+                    </p>
+                </div>
+                <div class="img-itens">
+                    <img src="2000.jpg" alt="">
+                </div>
+            </article>
+        </div>
+    </section>
+
+
+</body>
+</html>

@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Collection</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <style>
+        *{
+    
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Poppins", sans-serif;
+        }
+    
+        body{
+            background-color:rgb(106, 169, 123)
+        }
+    
+        .interface{
+            max-width: 1280px;
+            margin: 0 auto;
+        }
+    
+        /* CSS HEADER */
+    
+        header{
+            padding: 40px 0;
+            width: 100%;
+            position: fixed;
+            top: 0;
+            left: 0;
+        }
+    
+        header .interface{
+            display: flex;
+            justify-content: space-between;
+    
+        }
+    
+        header .logo img{
+            max-width: 50px;
+        }
+    
+        header .menu nav ul{
+            list-style-type: none;
+        }
+        
+        header .menu nav ul li{
+            display: inline-block;
+            margin: 0 40px;
+        }
+    
+        header .menu nav ul li a{
+            color:white;
+            text-decoration: none;
+            transition: .2s;
+            display: inline-block;
+        }
+    
+        .menu nav a:hover{
+            transform: scale(1.05);
+        }
+    
+        header .btn-contato button{
+            height: 30px;
+            width: 100px;
+            font-size: 19px;
+            background-color: transparent;
+            border-radius: 20px;
+            color:aliceblue;
+            cursor: pointer;
+            transition: .5s;
+    
+        }
+    
+        header .btn-contato button:hover{
+            background-color:rgb(255, 255, 255);
+            color:black;
+        }
+    
+        /* home */
+    
+        section.home {
+            height: 100vh;
+            background-image: url(game.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            color:aliceblue;
+        }
+    
+        .home .interface{
+            display: flex;
+            align-items: center;
+            height: 100%;
+    
+        }
+    
+        .home .txt-home h1{
+            font-size: 4em;
+            line-height:60px;
+            font-weight: 200;
+            
+        }
+    
+        .home .txt-home h1 span{
+            font-weight: 800;
+            display: block;
+        }
+    
+        .home .txt-home p{
+            font-size: 20px;
+            font-weight: 300;
+            margin: 20px 0;
+        }
+    
+        .home .txt-home p span{
+            display: block;
+        }
+
+        /* collections */
+
+        section.collections{
+        padding: 80px 0;
+    }
+    
+    .collections .item-conteiner{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 10%;
+        margin-bottom: 70px;
+    }
+
+    .collections .item-conteiner .img-itens img{
+        max-width: 420px;
+        border-radius: 20px;
+    }
+
+    .collections .item-conteiner .txt-item h3{
+        font-size: 3em;
+        line-height: 50px;
+        margin-bottom: 30px;
+    }
+
+    .item-conteiner .txt-item h3 span{
+        font-weight: 300;
+    }
+
+
+    /*  STYLE */
+   </style>
+</head>
+
+
+
+<body>
+    <header>
+        <div class="interface">
+            <section class="logo">
+                <img src="logo.svg">
+            </section>
+
+            <section class="menu">
+                <nav>
+                    <ul>
+                        <li><a href="Game.html">Games Evolution</a></li>
+                        <li><a href="companies.html">Companies</a></li>
+                        <li><a href="GameAwards.htmlcccc">The Game Awards</a></li>
+                        <li><a href="Collection.html">Collection</a></li>
+                    </ul>
+                </nav>
+            </section>
+
+            <section class="btn-contato">
+                <a href="Contato.html">
+                    <button>contato</button>
+                </a>
+            </section>
+
+        </div>
+    </header>
+
+    <section class="home">
+        <div class="interface">
+            <div class="txt-home">
+                <h1> COLLECTION OF 
+                    <span> GAMES </span> </h1>
+
+                    <p> Jogos recomendados
+                        <span> para você </span> </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="collection" class="collection">
+        <div class="interface">
+            <article class="item-conteiner">
+                <div class="txt-item">
+
+                    <h3> Jogos FPS</h3> </br>
+                </h3>
+
+                <p> Os jogos FPS (ou First-Person Shooters, em inglês) são exatamente o que o nome descreve: jogos em que a visão do personagem é em primeira pessoa e a mesma do jogador, para maior imersão.</p>
+                <ul>
+                    <li> Counter Strike </li>
+                    <li> Valorant </li>
+                    <li> Overwatch </li>
+                    <li> Apex Legends </li>
+                    <li> Battlefield </li>
+                    <li> Doom </li>
+                    <li> Tom Clancy's Rainbow Six Siege </li>
+                    <li> Destiny </li>
+                </ul>
+                </div>
+
+                <div class="img-itens">
+                    <img src="" alt="">
+                </div>
+            </article>
+
+            <article class="item-conteiner">
+                <div class="img-itens">
+                    <img src="" alt="">
+                </div>
+
+                <div class="txt-item">
+                    
+                </div>
+            </article>
+
+    </section>
+</body>
+</html>

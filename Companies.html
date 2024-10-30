@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Companies</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing:border-box;
+        font-family: "Poppins", sans-serif;
+    }
+
+    body{
+        background-color:rgb(193, 152, 106);
+    }
+
+    .interface{
+        max-width: 1280px;
+        margin: 0 auto;
+    }
+
+    /* CSS HEADER */
+
+    header{
+        padding: 40px 0;
+        width: 100%;
+        position: fixed;
+        top: 0;
+        left: 0;
+    }
+
+    header .interface{
+        display: flex;
+        justify-content: space-between;
+
+    }
+
+    header .logo img{
+        max-width: 50px;
+    }
+
+    header .menu nav ul{
+        list-style-type: none;
+    }
+    
+    header .menu nav ul li{
+        display: inline-block;
+        margin: 0 40px;
+    }
+
+    header .menu nav ul li a{
+        color:white;
+        text-decoration: none;
+        transition: .2s;
+        display: inline-block;
+    }
+
+    .menu nav a:hover{
+        transform: scale(1.05);
+    }
+
+    header .btn-contato button{
+        height: 30px;
+        width: 100px;
+        font-size: 19px;
+        background-color: transparent;
+        border-radius: 20px;
+        color:aliceblue;
+        cursor: pointer;
+        transition: .5s;
+
+    }
+
+    header .btn-contato button:hover{
+        background-color:rgb(255, 255, 255);
+        color:black;
+    }
+
+    /* home */
+
+    section.home {
+        height: 100vh;
+        background-image: url(game2.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        color:aliceblue;
+    }
+
+    .home .interface{
+        display: flex;
+        align-items: center;
+        height: 100%;
+
+    }
+
+    .home .txt-home h1{
+        font-size: 4em;
+        line-height:60px;
+        font-weight: 200;
+    }
+
+    .home .txt-home h1 span{
+        font-weight: 800;
+        display: block;
+    }
+
+    .home .txt-home p{
+        font-size: 20px;
+        font-weight: 300;
+        margin: 20px 0;
+    }
+
+    .home .txt-home p span{
+        display: block;
+    } 
+
+    /* COMPANIES */
+
+    section .companies{
+        padding: 80px 0;
+    }
+
+    .companies .item-conteiner{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 10%;
+        margin-bottom: 70px;
+        margin-top: 30px;
+    }
+
+    .companies .item-conteiner .img-itens img{
+        max-width: 420px;
+        border-radius: 20px;
+    }
+
+    .companies .item-conteiner .txt-item h3{
+        font-size: 3em;
+        line-height: 50px;
+        margin-bottom: 30px;
+    }
+
+    .item-conteiner .txt-item h3 span{
+        font-weight: 300;
+    }
+
+
+</style>
+</head>
+
+
+<body>
+    <header>
+        <div class="interface">
+            <section class="logo">
+                <img src="logo.svg">
+            </section>
+
+            <section class="menu">
+                <nav>
+                    <ul><li><a href="Game.html">Games Evolution</a></li>
+                        <li><a href="companies.html">Companies</a></li>
+                        <li><a href="GameAwards.html">The Game Awards</a></li>
+                        <li><a href="Collection.html">Collection</a></li>
+                    </ul>
+                </nav>
+            </section>
+
+            <section class="btn-contato">
+                <a href="Contato.html">
+                    <button>contato</button>
+                </a>
+            </section>
+
+        </div>
+    </header>
+
+    <section class="home">
+        <div class="interface">
+            <div class="txt-home">
+                <h1> THE BEST  
+                    <span> GAME COMPANIES </span> </h1>
+
+                    <p> As diversas companhias 
+                        <span> criadoras de jogos </span> </p>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section id="companies" class="companies">
+        <div class="interface">
+            <article class="item-conteiner">
+                <div class="txt-item">
+
+                    <h3>Nintendo</h3>
+                    <p> É uma desenvolvedora e publicadora japonesa de jogos eletrônicose consoles sediada em Quioto.
+                        Fundada em setembro de 1889 pelo artesão e empresário Fusajiro Yamauchi, seu presidente atual é  Fusajiro Yamauchi.
+                        Responsável por jogos como os clássicos Donkey Kong, Super Mario, The Legend of Zelda, Metroid e outros como Animal Crossing, 
+                        Super Smash Bros, Mario Kart, Pokemon, Splatoon, etc. Também responsável pelos consoles Super Nintendo, Gamecube, Wii, Nintendo Switch, 
+                        Game Boy, Nintendo DS, etc.
+                    </p>
+                </div>
+
+                <div class="img-itens">
+                    <img src="nintendo.png">
+                </div>
+            </article>
+
+            <article class="item-conteiner">
+                <div class="img-itens">
+                    <img src="rockstar.png">
+                </div>
+
+                <div class="txt-item">
+                    <h3><span>Rockstar</span><br>
+                    Games</h3>
+                    <p> É uma produtora e publicadora de jogos eletrônicos fundada em Dezembro de 1998. Responsável por grandes jogos
+                        como a coleção de Grand Theft Auto (GTA), Red Dead Redemption 2, Max Payne, Bully, L.A Noire, etc.</p>
+                </div>
+            </article>
+
+            <article class="item-conteiner">
+                <div class="txt-item">
+                    <h3><span>Electronic</span><br>
+                        Arts (EA)</h3>
+                    <p> É uma editora e publicadora de jogos eletrônicos sediada em Redwood City, Califórnia. Fundada em maio de 1982 por Trip Hawkins, ex-funcionário da Apple.
+                     Conhecida por jogos como a coleção de FIFA, The Sims 4, Need for Speed, Battlefield, Apex Legends, F1, etc.</p>
+                </div>
+
+                <div class="img-itens">
+                    <img src="ea.jpg">
+                </div>
+            </article>
+
+            <article class="item-conteiner">
+                <div class="img-itens">
+                    <img src="blizzard.png">
+                </div>
+
+                <div class="txt-item">
+                    <h3>Blizzard</h3>
+                    <p> É uma editora e desenvolvedora de videojogos americana tendo sua sede na cidade de Irvine, California. A companhia é uma subsidiária da Activision Blizzard e foi fundada em 8 de fevereiro de 1991, sob o nome de Silicon & Synapse, por Michael Morhaime, Frank Pearce e Allen Adham.
+                        Criadora de jogos como Overwatch, World of Warcraft e Diablo.</p>
+                </div>
+            </article>
+
+            <article class="item-conteiner">
+                <div class="txt-item">
+                    <h3>Ubisoft</h3>
+                    <p> É uma editora e publicadora de jogos eletrônicos francesa com sede no subúrbio de Montreuil, em Paris, seu CEO sendo  Yves Guillemot.
+                        A Ubisoft é responsável por muitos jogos conhecidos, tais como a série de jogos de Assassin's Creed, Far Cry, Rainbow Six, Just Dance,
+                        entre muitos outros. </p>
+                    </div>
+
+                    <div class="img-itens">
+                        <img src="ubisoft.jpg">
+                    </div>
+            </article>
+
+            <article class="item-conteiner">
+                <div class="img-itens">
+                    <img src="jogos.jpg">
+                </div>
+
+                <div class="txt-item">
+                    <h3>Outros</h3>
+                    <p> Há muitas outras empresas com jogos conhecidos, como <b>Square Enix</b>, responsável pela série de jogos 
+                    Final Fantasy e Nier:Automata, <b>Microsoft</b> responsável pelo jogo mundialmente famoso Minecraft, 
+                 <b> Epic Games</b>, responsável por Fortnite, <b>Sega</b>, criadora do clássico Sonic, <b>Capcom</b>, que tem a série de 
+                 jogos Resident Evil, Street Fighter, Devil May Cry, etc. E diversas outras companhias produtoras de jogos.</p>
+                    </div>
+            </article>
+        </div>
+    </section>
+    
+</body>
+</html>
